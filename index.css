@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color:  #d8c2a1; 
+    
+}
+
+#container2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   width: 500px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+    height: 100vh; 
+
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#pokemonSprite{
+    width: 300px;
+    height: auto;
+    border-style: solid;
+    border: 4px, 4px, 4px,4px;
+    border-color: #FFFFFF ;
+    background-color: #FFFFFF ;
+    border-radius: 20px;
+}
+
+input{
+    text-align: center;
+    width: 200px;
+    height: 40px;
+}
+
+button{
+
+    width: auto;
+    height: 40px;
+}
+
+button:hover{
+    transition: 0.5s;
+    background-color: #007BFF;
+    color: white;
+}
+
+button:disabled{
+    background-color: #FFFFFF;
+    color: grey;
+}
